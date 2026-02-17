@@ -387,6 +387,7 @@ Following SQLite extensions are supported by this plugin, although they require 
 |------------------------------------------------------------------------------|-----------------------|---------|
 | [SQLite FTS5 Extension](https://sqlite.org/fts5.html)                        | enable_fts5           | no      |
 | [Built-In Mathematical SQL Functions](https://sqlite.org/lang_mathfunc.html) | enable_math_functions | no      |
+| [SQLite R\*Tree Module](https://sqlite.org/rtree.html)                       | enable_rtree          | no      |
 
 To re-compile the plugin with XYZ enabled, follow the instructions as defined in the 'How to contribute?'-section below.  
 Depending on your choice, following modifications have to be made:
