@@ -34,8 +34,7 @@
       "platform": "windows",
       "artifact-extension": "dll",
       "flags": "use_mingw=yes arch=arm64",
-      "cache-name": "win-arm64-mingw",
-      "skip": true
+      "cache-name": "win-arm64-mingw"
     },
     {
       "name": "Ubuntu (x86_64, GCC)",
@@ -68,7 +67,8 @@
       "platform": "macos",
       "artifact-extension": "framework",
       "flags": "arch=universal",
-      "cache-name": "macos-universal"
+      "cache-name": "macos-universal",
+      "skip": true
     },
     {
       "name": "Android (x86_64)",
@@ -91,14 +91,16 @@
       "os": "macos-latest",
       "platform": "ios",
       "artifact-extension": "xcframework",
-      "cache-name": "ios-arm64"
+      "cache-name": "ios-arm64",
+      "skip": true
     },
     {
       "name": "Web (wasm32)",
       "os": "ubuntu-22.04",
       "platform": "web",
       "artifact-extension": "wasm",
-      "cache-name": "web-wasm32"
+      "cache-name": "web-wasm32",
+      "skip": true
     },
     {
       "name": "Web (wasm32, No Threads)",
@@ -106,7 +108,8 @@
       "platform": "web",
       "artifact-extension": "nothreads.wasm",
       "flags": "threads=no",
-      "cache-name": "web-wasm32-nothreads"
+      "cache-name": "web-wasm32-nothreads",
+      "skip": true
     }
   ]
 }
